@@ -1,0 +1,60 @@
+.footer {
+  margin-top: 2em;
+  height: 20em;
+  width: 100%;
+  background-color: #3B3937;
+  background-image: url('../../assets/background_img/frame4.png');
+  padding: 5rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 20%;
+}
+
+
+.footer-logo p {
+  color: #fff;
+  margin-top: 1em;
+
+}
+
+.footer-logo-img {
+  width: 30%;
+}
+
+.footer-phone a h4 {
+  color: #fff;
+}
+
+.footer-address p {
+  font-weight: 400;
+}
+
+
+.footer-blocks ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-blocks ul li a {
+  color: #fff;
+
+  &:hover {
+    color: #FFD6A8;
+  }
+}
+
+
+.footer-blocks.contacts {
+  margin-top: .5em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
